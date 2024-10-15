@@ -1,0 +1,38 @@
+{
+  "name": "@nonphoto/css-utils",
+  "version": "0.0.0",
+  "author": "Jonas Luebbers <jonas@jonasluebbers.com> (https://www.jonasluebbers.com)",
+  "license": "MIT",
+  "description": "CSS Utilities",
+  "main": "src/index.ts",
+  "type": "module",
+  "files": [
+    "src/**/*",
+    "dist/**/*"
+  ],
+  "scripts": {
+    "dev": "vinxi dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nonphoto/css-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nonphoto/css-utils/issues"
+  },
+  "homepage": "https://github.com/nonphoto/css-utils",
+  "devDependencies": {
+    "@solidjs/router": "^0.14.7",
+    "@solidjs/start": "^1.0.8",
+    "semantic-release": "24.1.2",
+    "solid-js": "^1.9.1",
+    "tsup": "8.2.4",
+    "typescript": "5.5.4",
+    "vinxi": "^0.4.3"
+  },
+  "dependencies": {
+    "@thi.ng/hiccup-css": "2.7.26",
+    "@thi.ng/math": "5.11.11",
+    "@thi.ng/transducers": "9.2.6"
+  }
+}
